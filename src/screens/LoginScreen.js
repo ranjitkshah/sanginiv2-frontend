@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios'; // Make sure to install axios
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext'; // Import useAuth
+import { useAuth } from '../contexts/AuthContext'; // Import useAuth
 
 const LoginScreen = () => {
   const [otp, setOtp] = useState('');
